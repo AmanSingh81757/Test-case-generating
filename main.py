@@ -9,7 +9,7 @@ print("Test Cases Generated\n")
 
 
 
-os.system("g++ chintu.cpp -o solution")
+os.system("g++ main_code.cpp -o solution")
 print("Compiling Solutions")
 for i in range(fs):
     os.system(".\solution < extra/in%s.txt > extra/out%s.txt"%("0"+str(i) if i<10 else str(i),"0"+str(i) if i<10 else str(i)))
